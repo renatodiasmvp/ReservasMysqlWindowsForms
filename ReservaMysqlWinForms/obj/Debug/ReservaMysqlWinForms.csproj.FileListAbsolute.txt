@@ -1,0 +1,17 @@
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\ReservaMysqlWinForms.exe.config
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\ReservaMysqlWinForms.exe
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\ReservaMysqlWinForms.pdb
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\Google.Protobuf.dll
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\MySql.Data.dll
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\Google.Protobuf.xml
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\bin\Debug\MySql.Data.xml
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.csprojAssemblyReference.cache
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.Form1.resources
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.Properties.Resources.resources
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.csproj.GenerateResource.cache
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.csproj.CoreCompileInputs.cache
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.csproj.CopyComplete
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.exe
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.pdb
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.Form2.resources
