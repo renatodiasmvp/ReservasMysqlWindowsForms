@@ -22,7 +22,12 @@ namespace ReservaMysqlWinForms.Entidades
 
         
 
-        public Reserva(int id, DateTime data_ent, DateTime data_sai, double valor_total)
+        public Reserva()
+        {
+            
+        }
+
+        public void SetReserva(int id, DateTime data_ent, DateTime data_sai, double valor_total)
         {
             ID = id;
             DATA_ENT = data_ent;
@@ -31,7 +36,7 @@ namespace ReservaMysqlWinForms.Entidades
         }
 
 
-        public void Incluir()
+        public void Incluir(int id, DateTime data_ent, DateTime data_sai, double valor_total)
         {
             try
             {

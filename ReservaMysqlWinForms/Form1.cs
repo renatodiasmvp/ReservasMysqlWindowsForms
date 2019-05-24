@@ -13,7 +13,10 @@ namespace ReservaMysqlWinForms
 {
     public partial class Form1 : Form
     {
+        
+
         public string TipoQuartoSelecionado = "";
+        ReservaTemporaria reservaTemp = new ReservaTemporaria();
 
         public Form1()
         {
@@ -37,9 +40,13 @@ namespace ReservaMysqlWinForms
 
         private void btnIncluir_Click(object sender, EventArgs e)
         {
-            Reserva reserva = new Reserva(0, DateTime.Parse(txtDataEntrada.Text), DateTime.Parse(txtDataSaida.Text), Double.Parse(txtValorTotal.Text));
+            Reserva reserva = new Reserva();
 
-            reserva.Incluir();
+            reserva.Incluir(0, DateTime.Parse(txtDataEntrada.Text), DateTime.Parse(txtDataSaida.Text), Double.Parse(txtValorTotal.Text));
+
+            reservaTemp.DataEntrada = DateTime.Parse(txtDataEntrada.Text);
+            reservaTemp.DataSaida = DateTime.Parse(txtDataSaida.Text);
+            reservaTemp.ValorTotal = Double.Parse(txtValorTotal.Text);
 
             //var dados = reserva.BuscaReserva(DateTime.Parse(txtDataEntrada.Text), DateTime.Parse(txtDataSaida.Text), Double.Parse(txtValorTotal.Text));
             var dados = reserva.Listar();
@@ -109,18 +116,18 @@ namespace ReservaMysqlWinForms
         {
             if (chkSolteiro.Checked)
             {
-                TipoQuartoSelecionado = "Solteiro";
+                reservaTemp.TipoQuarto = "Solteiro";
             }
             else if (chkCasal.Checked)
             {
-                TipoQuartoSelecionado = "Casal";
+                reservaTemp.TipoQuarto = "Casal";
             }
             else if (chkCompartilhado.Checked)
             {
-                TipoQuartoSelecionado = "Compartilhado";
+                reservaTemp.TipoQuarto = "Compartilhado";
             }
 
-            Form2 SegundoForm = new Form2(this);
+            Form2 SegundoForm = new Form2(reservaTemp);
             SegundoForm.Show();
         }
     }

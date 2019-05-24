@@ -15,3 +15,4 @@ C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\
 C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.exe
 C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.pdb
 C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.Form2.resources
+C:\Users\j_ren\source\repos\ReservaMysqlWinForms\ReservaMysqlWinForms\obj\Debug\ReservaMysqlWinForms.Form3.resources
